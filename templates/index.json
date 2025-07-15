@@ -1,0 +1,175 @@
+{
+  "sections": {
+    "hero": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Transform Your Skin Naturally",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Discover the power of clean, effective skincare that works with your skin's natural rhythm. One product, endless possibilities.",
+            "text_style": "subtitle"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://products/skincare-essence",
+            "button_style_secondary_1": false,
+            "button_label_2": "Learn More",
+            "button_link_2": "#about",
+            "button_style_secondary_2": true
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "image": "shopify://shop_images/skincare-hero.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "large",
+        "image_behavior": "none",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "scheme-1",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "benefits": {
+      "type": "multicolumn",
+      "blocks": {
+        "benefit_1": {
+          "type": "column",
+          "settings": {
+            "title": "Natural Ingredients",
+            "text": "Formulated with carefully selected natural ingredients that nourish and protect your skin without harsh chemicals.",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "benefit_2": {
+          "type": "column",
+          "settings": {
+            "title": "Proven Results",
+            "text": "Clinically tested and dermatologist-approved formula that delivers visible results in just 28 days.",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "benefit_3": {
+          "type": "column",
+          "settings": {
+            "title": "Suitable for All",
+            "text": "Gentle enough for sensitive skin, powerful enough for all skin types. One product that adapts to your needs.",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "benefit_4": {
+          "type": "column",
+          "settings": {
+            "title": "Sustainable Beauty",
+            "text": "Eco-friendly packaging and cruelty-free practices. Beauty that's good for you and the planet.",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["benefit_1", "benefit_2", "benefit_3", "benefit_4"],
+      "settings": {
+        "title": "Why Choose Our Skincare",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "about": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Born from a passion for clean beauty and sustainable practices, our skincare essence is the result of years of research and dedication. We believe that effective skincare should be simple, natural, and accessible to everyone.</p><p>Every ingredient is carefully selected for its proven benefits, and every batch is crafted with love in our small, family-owned facility. We're committed to transparency, quality, and results that speak for themselves.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "/pages/about-us",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": ["heading", "text", "button"],
+      "settings": {
+        "image": "shopify://shop_images/about-skincare.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "testimonials": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class='testimonials-section' style='background-color: #fafafa; padding: 80px 0;'><div class='page-width'><h2 style='text-align: center; margin-bottom: 60px; font-size: 2.5rem; color: #333;'>What Our Customers Say</h2><div class='testimonials-grid' style='display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px;'><div class='testimonial-card' style='background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);'><div style='color: #ffd700; font-size: 24px; margin-bottom: 20px;'>★★★★★</div><p style='font-size: 16px; line-height: 1.6; color: #666; margin-bottom: 20px;'>\"This product has completely transformed my skincare routine. My skin has never looked better!\"</p><div style='font-weight: 600; color: #333;'>- Sarah M.</div></div><div class='testimonial-card' style='background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);'><div style='color: #ffd700; font-size: 24px; margin-bottom: 20px;'>★★★★★</div><p style='font-size: 16px; line-height: 1.6; color: #666; margin-bottom: 20px;'>\"Finally, a skincare product that actually delivers on its promises. I'm obsessed!\"</p><div style='font-weight: 600; color: #333;'>- Emma L.</div></div><div class='testimonial-card' style='background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);'><div style='color: #ffd700; font-size: 24px; margin-bottom: 20px;'>★★★★★</div><p style='font-size: 16px; line-height: 1.6; color: #666; margin-bottom: 20px;'>\"Gentle yet effective. Perfect for my sensitive skin. I can't recommend it enough!\"</p><div style='font-weight: 600; color: #333;'>- Jessica K.</div></div></div></div></div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "instagram": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class='instagram-section' style='padding: 80px 0; background: white;'><div class='page-width'><h2 style='text-align: center; margin-bottom: 60px; font-size: 2.5rem; color: #333;'>Follow Our Journey</h2><p style='text-align: center; margin-bottom: 60px; font-size: 18px; color: #666;'>@skincarebrand</p><div class='instagram-grid' style='display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;'><div class='instagram-item' style='aspect-ratio: 1; background: #f5f5f5; border-radius: 12px; overflow: hidden;'><div style='width: 100%; height: 100%; background: linear-gradient(45deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; color: #999; font-size: 14px;'>Lifestyle Photo 1</div></div><div class='instagram-item' style='aspect-ratio: 1; background: #f5f5f5; border-radius: 12px; overflow: hidden;'><div style='width: 100%; height: 100%; background: linear-gradient(45deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; color: #999; font-size: 14px;'>Lifestyle Photo 2</div></div><div class='instagram-item' style='aspect-ratio: 1; background: #f5f5f5; border-radius: 12px; overflow: hidden;'><div style='width: 100%; height: 100%; background: linear-gradient(45deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; color: #999; font-size: 14px;'>Lifestyle Photo 3</div></div><div class='instagram-item' style='aspect-ratio: 1; background: #f5f5f5; border-radius: 12px; overflow: hidden;'><div style='width: 100%; height: 100%; background: linear-gradient(45deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; color: #999; font-size: 14px;'>Lifestyle Photo 4</div></div><div class='instagram-item' style='aspect-ratio: 1; background: #f5f5f5; border-radius: 12px; overflow: hidden;'><div style='width: 100%; height: 100%; background: linear-gradient(45deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; color: #999; font-size: 14px;'>Lifestyle Photo 5</div></div><div class='instagram-item' style='aspect-ratio: 1; background: #f5f5f5; border-radius: 12px; overflow: hidden;'><div style='width: 100%; height: 100%; background: linear-gradient(45deg, #f0f0f0, #e0e0e0); display: flex; align-items: center; justify-content: center; color: #999; font-size: 14px;'>Lifestyle Photo 6</div></div></div></div></div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "faq": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class='faq-section' style='background-color: #fafafa; padding: 80px 0;'><div class='page-width'><h2 style='text-align: center; margin-bottom: 60px; font-size: 2.5rem; color: #333;'>Frequently Asked Questions</h2><div class='faq-container' style='max-width: 800px; margin: 0 auto;'><details style='background: white; margin-bottom: 20px; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05);'><summary style='padding: 30px; cursor: pointer; font-weight: 600; font-size: 18px; color: #333; border-bottom: 1px solid #f0f0f0;'>How long does it take to see results?</summary><div style='padding: 30px; color: #666; line-height: 1.6;'>Most customers begin to see visible improvements within 2-4 weeks of consistent use. For best results, we recommend using the product twice daily as part of your skincare routine.</div></details><details style='background: white; margin-bottom: 20px; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05);'><summary style='padding: 30px; cursor: pointer; font-weight: 600; font-size: 18px; color: #333; border-bottom: 1px solid #f0f0f0;'>Is this product suitable for sensitive skin?</summary><div style='padding: 30px; color: #666; line-height: 1.6;'>Yes! Our formula is specifically designed to be gentle on all skin types, including sensitive skin. We use only natural, non-irritating ingredients that work with your skin's natural barrier.</div></details><details style='background: white; margin-bottom: 20px; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05);'><summary style='padding: 30px; cursor: pointer; font-weight: 600; font-size: 18px; color: #333; border-bottom: 1px solid #f0f0f0;'>What ingredients are used?</summary><div style='padding: 30px; color: #666; line-height: 1.6;'>Our product contains only natural, plant-based ingredients including hyaluronic acid, vitamin C, and organic botanical extracts. We never use parabens, sulfates, or artificial fragrances.</div></details><details style='background: white; margin-bottom: 20px; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05);'><summary style='padding: 30px; cursor: pointer; font-weight: 600; font-size: 18px; color: #333; border-bottom: 1px solid #f0f0f0;'>How should I incorporate this into my routine?</summary><div style='padding: 30px; color: #666; line-height: 1.6;'>Apply after cleansing and before moisturizing, both morning and evening. A small amount goes a long way - just 2-3 drops are sufficient for your entire face and neck.</div></details></div></div></div>",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": ["hero", "benefits", "about", "testimonials", "instagram", "faq"]
+}
